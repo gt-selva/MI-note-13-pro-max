@@ -1,0 +1,24 @@
+#sign-in-page{
+    position: absolute;
+    width: 101%;
+    height: 720px;
+    background-color: white;
+    z-index: 2;
+    margin-top: -50px;
+    display: flex;
+}
+#inp-sign-in{
+    background-color: rgba(173, 216, 230, 0.304);
+    width: 200px;
+    height: 250px;
+    margin-top: 250px;
+    margin-left: 350px;
+    line-height: 30px;
+    padding: 100px 100px 100px 100px;
+}
+#log-in-sub{
+    margin-left: 50px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    border: 0px solid black;
+}

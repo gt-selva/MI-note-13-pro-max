@@ -1,0 +1,545 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+nav{
+    margin-top: 40px;
+    
+}
+body{
+    overflow-x: hidden;
+    /* height: 7000px; */
+}
+
+#body-div{
+    box-shadow: 0 6PX 16PX 0 rgba(25, 25, 25, 0.605);
+    height: 50px;
+    width: 100%;
+    margin-left: -50px;
+}
+.h1{
+    margin-left: -315px;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: -10px;
+    color: rgb(59, 59, 59);
+}
+#div-1{
+    background-color: #dddada88;
+    height: 50px;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding-top: -50px;
+}
+#main-div{
+
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 101%;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.564);
+
+}
+#pro{
+    margin-right: 35px;
+    /* margin-top: 10px; */
+}
+#nav{
+    margin-left: 150px;
+    margin-top: -40px;
+    padding-top: 8px;
+}
+#nav-2{
+    margin-left: 1130px;
+    margin-top: -20px;
+}
+#nav-3{
+    margin-left: 1330px;
+    margin-top: -23px;
+    gap: 90px;
+}
+#anc1,#anc2,#anc3,#anc4,#anc5,#anc7{
+    margin-right:30px;
+    width: fit-content;
+    padding-bottom: 11px;
+
+
+}
+/* search top bar  */
+
+#searchtop{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    z-index: 1;
+    top: -20px;
+    display: none;
+}
+#searchtop>input{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 450px;
+    padding: 15px 450px 15px 60px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: 200;
+}
+#searchinp::placeholder{
+    font-size: 20px;
+    font-weight: 300;
+}
+#searchimg{
+    position: absolute;
+    display: flex;
+    margin-left: 465px;
+    margin-top: 115px; 
+}
+#searchp>a{
+   display: flex;
+   margin-top: 20px;
+   margin-left: 510px;
+   font-weight: 500;
+   font-size: 25px;
+   color: gray;
+}
+#sea-a:hover,#sea-b:hover,#sea-c:hover,#sea-d:hover,#sea-e:hover{
+    color: black;
+}
+
+#milogo{
+    width:35px;
+    padding-top: px;
+    height: 35px;
+    margin-left:50px;
+    position: absolute;
+    z-index: 3;
+}
+#anc1:hover,#anc2:hover,#anc3:hover,#anc4:hover,#anc5:hover{
+    color: rgb(241, 123, 13);
+    border-bottom: 3px solid  rgb(241, 123, 13);
+    border-width: 3px;
+    border-top: 20px;
+    align-items: center;
+    width: fit-content;
+    position: relative;
+}
+#pro{
+    cursor: pointer;
+}
+#head>h1{
+    padding-top: 5px;
+}
+#head{
+    width: 100%;
+    position: sticky;
+    background-color:rgba(255, 255, 255, 0.675);
+    top: 0px;
+    height: 50px;
+    margin-top: 10px;
+    padding-left:350px;
+}
+#img1{
+    margin-top: 10px;
+    margin-left: -80px;
+}
+#price{
+    margin-top: -1010px;
+    margin-left: 690px;
+}
+#body-img{
+    margin-top: 300px;
+}
+#goat{
+    margin-top: -6400px;
+    margin-left: -10px;
+}
+#goat2{
+    margin-left: 450px;
+    width: 616.8px;
+    margin-top: -550px;
+    text-align: center;
+    line-height: 22px;
+}
+#video-1{
+    object-fit: contain;
+    margin-top: 50px;
+}
+#vid-1-content{
+    margin-left: 60px;
+    width:0px;
+    text-align: center;
+    margin-top: -230px;
+}
+#video-2{
+    margin-top: -640px;
+    z-index: 1;
+}
+#vid-2-content{
+    margin-left: 400px;
+    margin-top: -4px;
+    z-index:-1 ;
+}
+#cont-text{
+    margin-left: 600px;
+    margin-top: 50px;
+}
+#img-text{
+    width: 700px;
+    margin-left: -100px;
+    color: rgb(8, 84, 114);
+    margin-top: 10px;
+    line-height: 20px;
+}
+#showcase-img{
+    margin-left: 490px;
+    margin-top: 40px;
+}
+#cus-ui-text{
+    margin-left: 650px;
+    margin-top: 100px;
+}
+#cus-txt{
+    margin-top: 20px;
+    width: 276px;
+    font-size: 12px;
+}
+#cus-ui{
+    margin-left: 550px;
+    margin-top: 0px;
+}
+#cus-ui-2{
+    margin-left: 150px;
+    margin-top: -50px;
+}
+#cus-txt-2{
+    font-size: 13px;
+    width: 400px;
+    margin-left: 500px;
+    margin-top: -190px;
+    line-height: 20px;
+}
+#cus-ui-3{
+    margin-left: 400px;
+    margin-top: 10px;
+}
+#cus-ui-3-txt{
+    margin-left: 650px;
+    margin-top: -370px;
+}
+#cus-ui-txt-3{
+    margin-top: 280px;
+    font-size: 13px;
+    color: rgb(65, 77, 82);
+    width: 430px;
+    line-height: 20px;
+}
+#cus-ui-4{
+    margin-left: 600px;
+    margin-top: 100px;
+}
+#cus-ui-4-txt{
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 70px;
+    font-size: 13px;
+}
+#cus-ui-5{
+    margin-left: 150px;
+    margin-top: 100px;
+}
+#cus-ui-4-h1{
+    margin-top: 290px;
+    margin-left: 620px;
+    font-weight: 300;
+}
+#cus-ui--txt{
+    margin-top: -200px;
+    margin-left: 500px;
+    width: 350px;
+    font-size: 13px;
+}
+#cus-6{
+    margin-left: 700px;
+    margin-top: 120px;
+}
+#cus-txt-7{
+    width: 878px;
+    font-size: 12.5px;
+    margin-left: 550px;
+    line-height: 20px;
+}
+#notes{
+    margin-left: 200px;
+    margin-top: 100px;
+}
+#notes-txt{
+    margin-top: 30px;
+    width: 1200px;
+    display: none;
+    
+}
+#footer{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(25, 25, 25);
+    margin-top: 30px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 800px;
+    gap: 25px;
+    margin-top: -20px;
+    font-weight: 100;
+    font-size: 16px;
+}
+#ll{
+    color: rgb(133, 133, 133);
+}
+li:hover{
+    color: rgb(255, 145, 0);
+    cursor: pointer;
+}
+
+/* nav bar property */
+
+/* smart watch and audio */
+#smaa{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 101%;
+    height: 300px;
+    top: 50px;
+    background-color: white;
+}
+#h1{
+    display: flex;
+    margin-top: 50px;
+    font-size: 14px;
+    gap: 100px;
+    font-weight: 550;
+    margin-left: 50px;
+}
+#audio-prod{
+    margin-left: 230px;
+    font-size: 14px;
+    color: gray;
+    line-height: 40px;
+    margin-top: 10px;
+    width: fit-content;
+}
+#audio-produ:hover,#lifestyle-produ:hover,#tv-produ:hover,#smart-home-produ {
+    color: rgb(255, 128, 0);
+    text-decoration: underline;
+    cursor: pointer;
+}
+#hh1:hover,#ts1:hover,#ts2:hover{
+    color: rgb(255, 128, 0);
+    cursor: pointer;
+}
+#lifestyle-prod{
+    margin-left: 380px;
+    font-size: 14px;
+    color: gray;
+    line-height: 40px;
+    margin-top: -160px;
+    width: fit-content;
+}
+
+                            /* tv and samrt home */
+#tash{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 101%;
+    height: 410px;
+    top: 50px;
+    background-color: white;
+}
+#tv-smarthome{
+    display: flex;
+    margin-top: 50px;
+    font-size: 14px;
+    gap: 150px;
+    font-weight: 550;
+    margin-left: 100px;
+}
+#tv-prod{
+    margin-left:100px;
+    font-size: 14px;
+    color: gray;
+    line-height: 40px;
+    margin-top: 10px;
+    width: fit-content;
+}
+#smart-home-prod{
+    margin-left: 265px;
+    font-size: 14px;
+    color: gray;
+    line-height: 40px;
+    margin-top: -120px;
+    width: fit-content;
+
+}
+#tablets{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 101%;
+    height: 350px;
+    top: 50px;
+    background-color: white;
+}
+
+#tab-images{
+    margin-left: 370px;
+    margin-top: 100px;
+    display: flex;
+    cursor: pointer;
+}
+ #tablet-model{
+    display: flex;
+    gap: 130px;
+    margin-left: 400px;
+ }
+#tablet-model>p{
+    font-size: 14px;
+    color: gray;
+    display: flex;
+}
+#phones{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 101%;
+    height: 350px;
+    top: 50px;
+    background-color: white;
+}
+#phones-images{
+    margin-top: 80px;
+    margin-left: 200px;
+    display: flex;
+}
+#phones-model{
+    margin-left: -1220px;
+    display: flex;
+    gap: 150px;
+    margin-top: 200px;
+}
+#phones-model>p{
+    font-size: 14px;
+    color: gray;
+    display: flex;
+}
+#login-logout{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 60px;
+    background-color: white;
+    top: 50px;
+    left: 1430px;
+    line-height: 30px;
+    padding: 10px;
+}
+#login-logout>a:hover{
+    color:rgb(255, 128, 0);
+    text-decoration: underline;
+}
+#support>a:hover,#shop-and-learn>a:hover,#retail-store>a:hover,#about-us>a:hover,#span2:hover{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#support{
+    padding-top: 100px;
+}
+#support>a{
+    width: fit-content;
+    font-size: 14px;
+    line-height: 40px;
+    margin-left: 200px;
+    color: gray;
+    display: grid;
+}
+#shop-and-learn>a{
+    font-size: 14px;
+    line-height: 40px;
+    margin-left: 500px;
+    color: gray;
+    display: grid;
+    width: fit-content;
+}
+#shop-and-learn{
+    margin-top: -590px;
+}
+#retail-store>a{
+    font-size: 14px;
+    line-height: 40px;
+    margin-left: 800px;
+    color: gray;
+    display: grid;
+    width: fit-content;
+}
+#retail-store{
+    margin-top: -310px;
+}
+#about-us>a{
+    font-size: 14px;
+    line-height: 40px;
+    margin-left: 1100px;
+    color: gray;
+    display: grid;
+    width: fit-content;
+}
+#about-us{
+    margin-top: -170px;
+}
+#hr1{
+    width: 1300px;
+    margin-left: 100px;
+    height: 0.1px;
+}
+#copyright {
+    margin-top: 40px;
+    margin-left: 500px;
+    color: white;
+}  
+#drop-down-button{
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    border: 0px solid ;
+    border-radius: 30%;
+    background-color: rgba(128, 128, 128, 0.564);
+    position: sticky;
+    left: 1440px;
+    top: 650px;
+}
+#drop-down{
+    margin-left: 9px;
+    margin-top: 19px;
+    scroll-behavior: smooth;
+}
+#drop-down-a{
+    scroll-behavior: smooth;
+}
+@media screen {
+    
+    
+}
+            
